@@ -1,5 +1,7 @@
 # Google Summer of Code 2025 Ideas
 
+![GSOCxDyalog Banner](./assets//banner.png)
+
 This page will hold all finalised ideas for Google Summer of Code 2025.
 
 ## Finalised Ideas for GSoC 2025
