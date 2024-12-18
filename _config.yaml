@@ -3,34 +3,3 @@ title: Dyalog and Google Summer of Code
 description: Ideas for GSoC projects for Dyalog
 url: "https://gsoc.dyalog.com"
 baseurl: ""
-
-# Favicon
-defaults:
-  - scope:
-      path: ""
-    values:
-      favicon: "./assets/favicon.ico"
-
-# SEO and Metadata
-tags:
-  - gsoc
-  - apl
-  - dyalog
-  - programming language
-  - open source
-
-# Markdown settings
-# markdown: kramdown
-# highlighter: rouge
-
-# Plugins (optional, if using Jekyll)
-# plugins:
-#   - jekyll-seo-tag
-
-# Theme (if applicable, e.g., a Jekyll theme)
-# theme: minima # Replace with your preferred theme
-
-# Exclude files and folders from processing
-# exclude:
-  # - README.md
-  # - node_modules
