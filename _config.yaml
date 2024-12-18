@@ -9,7 +9,7 @@ defaults:
   - scope:
       path: ""
     values:
-      favicon: "./assets/fav.svg"
+      favicon: "./assets/favicon.ico"
 
 # SEO and Metadata
 tags:
