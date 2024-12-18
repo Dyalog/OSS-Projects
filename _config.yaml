@@ -24,11 +24,11 @@ tags:
 # highlighter: rouge
 
 # Plugins (optional, if using Jekyll)
-# plugins:
-#   - jekyll-seo-tag
+plugins:
+  - jekyll-seo-tag
 
 # Theme (if applicable, e.g., a Jekyll theme)
-# theme: minima # Replace with your preferred theme
+theme: jekyll-theme-cayman # Replace with your preferred theme
 
 # Exclude files and folders from processing
 # exclude:
