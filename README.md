@@ -4,8 +4,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="./assets/site.webmanifest" />
 
-# Google Summer of Code 2025 Ideas
-
 ![GSOCxDyalog Banner](./assets/banner.png)
 
 This page will hold all finalised ideas for Google Summer of Code 2025.
