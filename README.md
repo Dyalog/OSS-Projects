@@ -10,7 +10,7 @@ This page will hold all finalised ideas for Google Summer of Code 2025.
 
 ## Finalised Ideas for GSoC 2025
 
-To be annouced! Estimated time for the release of finalised projects is Mid-January 2025
+To be annouced! Estimated time for the release of finalised projects is before February 11 2025 - 18:00 UTC
 
 ## For discussions and questions:
 
