@@ -36,11 +36,11 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-## Finalised Ideas for GSoC 2025
+# Finalised Ideas for GSoC 2025
 
-### Make the TryAPL front end mobile friendly
+## Make the TryAPL front end mobile friendly
 - Project: TryAPL Front End
-- Size: 175 hours
+- Size: medium-175h
 - Difficulty Level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
 - Potential mentors: [@rikedyp](https://github.com/rikedyp), [@sloorush](https://github.com/sloorush), [@cursork](https://github.com/cursork)
@@ -59,6 +59,67 @@ The TryAPL project will have a new front end that can be deployed on https://try
 
 #### Technologies involved:
 HTML, CSS, JavaScript
+
+## Dyalog Jupyter Projects
+
+### Introduction
+
+[Jupyter notebooks](https://jupyter.org/) are interactive documents that combine live code, equations, visualisations, and narrative text in a single, shareable format. They allow users to create and share documents containing executable code, output results, explanatory text written in [Markdown](https://en.wikipedia.org/wiki/Markdown), and rich media elements - Jupyter notebooks have become the de facto standard for data science and AI development, enabling researchers and practitioners to document their work, share reproducible analyses, and combine code execution with rich explanations. 
+
+A Jupyter [kernel](https://docs.jupyter.org/en/stable/projects/kernels.html) is the computational engine that executes code contained in a Jupyter notebook. It acts as an independent process that interprets and runs code in a specific programming language (like [Python](https://www.python.org/), [R](https://www.r-project.org/), or [Julia](https://julialang.org/)), manages the notebook's state and variables, and communicates results back to the notebook interface through a standardised protocol. This separation between the notebook interface and kernel allows for language-agnostic functionality while maintaining a consistent user experience.
+
+The [Dyalog Jupyter kernel](https://github.com/Dyalog/dyalog-jupyter-kernel) implements a subset of the Jupyter [protocol](https://jupyter-protocol.readthedocs.io/en/latest/), enabling the creation of [APL notebooks](https://github.com/Dyalog/dyalog-jupyter-notebooks), and APL-driven [Jupyter books](https://www.smashingmagazine.com/2015/01/designing-for-print-with-css/). 
+
+Here are some examples of the kernel in use:
+
+- https://xpqz.github.io/learnapl
+- https://xpqz.github.io/cultivations
+- https://github.com/fastai/apl-study
+- https://github.com/yiyus/data-science-in-APL
+- https://github.com/yiyus/ga
+- https://github.com/yiyus/nu
+
+There are two tasks of medium difficulty that can be undertaken in this project:
+
+### Dyalog Magics
+- Project: Dyalog Jupyter Kernel
+- Size: medium-175h
+- Difficulty Level: medium
+- Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
+- Potential Mentors: [@xpqz](https://github.com/xpqz), [@yiyus](https://github.com/yiyus), [@martanit](https://github.com/martanit), [@MaxCan-Code](https://github.com/MaxCan-Code), [@cursork](https://github.com/cursork)
+- Discussions: TBA
+
+The Dyalog Kernel currently does not implement any of the Jupyter [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) -- meta commands that don't get executed by the kernel itself, typically interfacing with the operating system, or with Jupyter extensions, "escaping" the Dyalog kernel in this case. 
+
+The [Jupyter AI extension](https://jupyter-ai.readthedocs.io/en/latest/index.html) is an example of what can be done with magic commands. We would like to implement the magics protocol in the Dyalog Kernel, and implement some of the more commonly used magic commands on top of this. Hooking Dyalog up to the Jupyter AI magics would be a great stretch goal for this. There is a floating boundary on this -- the bulk of this will still be a Python job, but depending on how deep you go, you may want to pick up some Dyalog APL to let the backend drive some of the implementation. This is a good project for the Pythonista that has a burgeoning interest in array programming and APL. 
+
+[Jeremy Howard](https://github.com/jph00) has implemented [Dyalog magics](https://github.com/AnswerDotAI/aplnb) for the Python kernel -- the opposite direction: it makes it possible to execute Dyalog APL commands in a Python notebook.
+
+#### Expected outcomes:
+magics protocol implementation, + support for a set of magics
+#### Skills required:
+Python, interest in APL
+#### Technologies involved:
+Python, possibly JavaScript, possibly some APL
+
+### Dyalog Jupyter Widgets
+- Project: Dyalog Jupyter Kernel
+- Size: medium-175h
+- Difficulty Level: medium
+- Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
+- Potential Mentors: [@xpqz](https://github.com/xpqz), [@yiyus](https://github.com/yiyus), [@martanit](https://github.com/martanit), [@MaxCan-Code](https://github.com/MaxCan-Code), [@cursork](https://github.com/cursork)
+- Discussions: TBA
+
+Jupyter supports [widgets](https://ipywidgets.readthedocs.io/en/8.1.2/) -- simple in-cell interactive controls, such as sliders, buttons etc. The widget architecture is kernel-agnostic, and any kernel can implement access to such widgets. In this project, we'd like to implement the widget protocol for the Dyalog Jupyter kernel, so that we can show a slider that sets an APL value. This would greatly enhance exploratory programming in a Dyalog APL notebook: hook a slider up to a parameter in a model and see what the effects are without having to actually type and execute cells. 
+
+Implementing the widgets protocol needs to be done firstly in Python, to implement the callbacks, and secondly on the APL side to define ways to create the widgets. 
+
+#### Expected outcomes:
+Widgets protocol in kernel, plus APL implementation of the widget classes
+#### Skills required: 
+Python, interest in APL
+#### Technologies involved: 
+Python, APL
 
 ### Scientific Graphics Library for EWC
 
