@@ -13,6 +13,7 @@
 - Size: 175 hours
 - Level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
+- Potential mentors: [@rikedyp](https://github.com/rikedyp) [@sloorush](https://github.com/sloorush) [@cursork](https://github.com/cursork)
 
 #### Description:
 
