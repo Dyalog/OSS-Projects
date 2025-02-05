@@ -121,7 +121,7 @@ Python, interest in APL
 #### Technologies involved: 
 Python, APL
 
-### Scientific Graphics Library for EWC
+## Scientific Graphics Library for EWC
 
 - Project: EWC(Everywhere Window Create)
 - Size: 175 hours
