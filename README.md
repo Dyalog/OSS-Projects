@@ -27,12 +27,12 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-# Suggested Project list for GSoC 2025
+# Project list for GSoC 2025
 
 ## Project Ideas from the community
 
 Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡 
-This is where to put it, so we can comment and help you finalise it. Feel free to fill the information up and prople involved with the project will connect with you on [this discussion](https://github.com/Dyalog/GSOC/discussions/6)
+We have made a [discussion](https://github.com/Dyalog/GSOC/discussions/6) just for that, so we can comment and help you finalise it. Feel free to provide as much information as possible and then we'll look forward to connecting with you in this discussion
 
 Please try to include as much as possible from this template:
  
@@ -56,7 +56,7 @@ Please try to include as much as possible from this template:
 - Difficulty Level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
 - Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), Aarush Bhat ([@sloorush](https://github.com/sloorush)), Neil Kirsopp ([@cursork](https://github.com/cursork))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/10
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/10](https://github.com/Dyalog/GSOC/discussions/10)
 
 #### Description:
 
@@ -79,7 +79,7 @@ HTML, CSS, JavaScript
 - Difficulty Level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client 
 - Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/11
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/11](https://github.com/Dyalog/GSOC/discussions/11)
  
 #### Description:
  
@@ -101,7 +101,7 @@ HTML, CSS, JavaScript, React, some basic APL
 - Difficulty Level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client
 - Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/13
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/13](https://github.com/Dyalog/GSOC/discussions/13)
 
 #### Description:
 
@@ -130,7 +130,7 @@ APL, EWC, JavaScript, React, HTML, CSS.
 - Difficulty Level: Hard
 - Project URL: https://github.com/Co-dfns/Co-dfns
 - Potential Mentors: Aaron Hsu ([@arcfide](https://github.com/arcfide)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/12
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/12](https://github.com/Dyalog/GSOC/discussions/12)
 
 #### Description:
 
@@ -172,7 +172,7 @@ There are two tasks of medium difficulty that can be undertaken in this project:
 - Difficulty Level: medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
 - Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/7
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/7](https://github.com/Dyalog/GSOC/discussions/7)
 
 The Dyalog Kernel currently does not implement any of the Jupyter [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) -- meta commands that don't get executed by the kernel itself, typically interfacing with the operating system, or with Jupyter extensions, "escaping" the Dyalog kernel in this case. 
 
@@ -193,7 +193,7 @@ Python, possibly JavaScript, possibly some APL
 - Difficulty Level: medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
 - Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
-- Discussions: https://github.com/Dyalog/GSOC/discussions/7
+- Discussions: [https://github.com/Dyalog/GSOC/discussions/7](https://github.com/Dyalog/GSOC/discussions/7)
 
 Jupyter supports [widgets](https://ipywidgets.readthedocs.io/en/8.1.2/) -- simple in-cell interactive controls, such as sliders, buttons etc. The widget architecture is kernel-agnostic, and any kernel can implement access to such widgets. In this project, we'd like to implement the widget protocol for the Dyalog Jupyter kernel, so that we can show a slider that sets an APL value. This would greatly enhance exploratory programming in a Dyalog APL notebook: hook a slider up to a parameter in a model and see what the effects are without having to actually type and execute cells. 
 
