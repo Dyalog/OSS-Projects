@@ -31,7 +31,8 @@ Join the vibrant APL community at APL Orchard to connect with enthusiasts and me
 
 ## Project Ideas from the community
 
-Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡 
+Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡
+ 
 We have made a [discussion](https://github.com/Dyalog/GSOC/discussions/6) just for that, so we can comment and help you finalise it. Feel free to provide as much information as possible and then we'll look forward to connecting with you in this discussion
 
 Please try to include as much as possible from this template:
