@@ -6,7 +6,6 @@
 
 ![GSOCxDyalog Banner](./assets/banner.png)
 
-
 ## About Dyalog
 
 Dyalog delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog APL is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
@@ -28,15 +27,36 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-# Project list for GSoC 2025
+# Suggested Project list for GSoC 2025
+
+## Project Ideas from the community
+
+Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡 
+This is where to put it, so we can comment and help you finalise it. Feel free to fill the information up and prople involved with the project will connect with you on [this discussion](https://github.com/Dyalog/GSOC/discussions/6)
+
+Please try to include as much as possible from this template:
+ 
+```
+- Name of the project:
+- Estimated workload for you: 90 hours/ 175 hours /350 hours
+- Estimated difficulty for you: easy/medium/hard
+- Project URL
+- Potential mentors/maintainers that would be relevant to talk to : 
+- Description:
+    Tell us your thoughts: what do you want to do, why and how?
+- Skills that will be needed:
+    For example: HTML, CSS, JavaScript, (interest in) APL, Python, game programming, guide writing…
+- Expected outcomes/benefits for Dyalog and the community
+    What are the goals and how do you see us and the community benefitting from your idea?
+```
 
 ## Make the TryAPL front end mobile friendly
 - Project: TryAPL Front End
 - Size: medium-175h
 - Difficulty Level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
-- Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), [@sloorush](https://github.com/sloorush), [@cursork](https://github.com/cursork)
-- Discussions: TBA
+- Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), Aarush Bhat ([@sloorush](https://github.com/sloorush)), Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/10
 
 #### Description:
 
@@ -51,6 +71,79 @@ The TryAPL project will have a new front end that can be deployed on https://try
 
 #### Technologies involved:
 HTML, CSS, JavaScript
+
+## Scientific Graphics Library for EWC
+
+- Project: EWC(Everywhere Window Create)
+- Size: medium-175h
+- Difficulty Level: Medium
+- Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client 
+- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/11
+ 
+#### Description:
+ 
+EWC (Everywhere Window Create) is an emulation of Dyalog's highly successful object library for Windows Win32 GUI applications. While the original is limited to Windows Desktops, EWC allows the creation of web applications and cross-platform desktop or mobile applications using a combination of APL code on the server and JavaScript/React on the client side.
+ 
+EWC has wrapper classes for ApexCharts and KendoCharts, but these packages focus on business-oriented charting, and do not provide features like surface or contour charts, or other technical charting features that scientific users are likely to want. The task is to research available JavaScript libraries, identify one that will fit comfortably within EWC, and implement a wrapper class that makes it easy for the APL user to wield it. The EWC development team will be available for consultation and doing server-side work to create and optimise the new class if necessary.
+ 
+#### Expected outcomes:
+
+A new EWC object type that can be used in APL applications, a handful of samples demonstrating its use, and documentation that explains how to make use of the JavaScript library via EWC.
+ 
+#### Technologies involved:
+HTML, CSS, JavaScript, React, some basic APL
+
+## File Picker and similar components for EWC
+
+- Name: File Picker and similar components for EWC
+- Size: medium-175h
+- Difficulty Level: Medium
+- Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client
+- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/13
+
+#### Description:
+
+EWC (Everywhere Window Create) is an emulation of Dyalog's highly successful object library for Windows Win32 GUI applications. While the original is limited to Windows Desktops, EWC allows the creation of web applications and cross-platform desktop or mobile applications using a combination of APL code on the server and JavaScript/React on the client side.
+
+The EWC client can run in any mainstream browser or via the Chromium Embedded Framework on platforms that support it. When running on a single-user machine (typically via CEF), there are a number of classes available to the Windows developer that are not currently by JavaScript because access to local resources is restricted. Examples include BrowseBox, FileBox, FontPicker, Printer Selection and Configuration dialogs. These classes necessarily require development on both the APL and the JavaScript sides - prior APL knowledge is not required.
+
+The task is to implement as many as possible of these classes using either existing EWC components (Button, Edit, Combo, ListView, etc) or by implementing new ones, and APL code that will work under Linux, Microsoft Windows and Apple MacOS, to provide EWC users with cross-platform versions of these objects.
+
+The EWC development team will be available for mentoring and to help with any necessary enhancements to EWC to support this work.
+
+#### Required:
+
+- Knowledge of JavaScript and React
+- Desire to learn APL
+
+#### Expected outcomes:
+New EWC classes that can be used in APL applications, with documentation and examples.
+
+#### Technologies involved: 
+APL, EWC, JavaScript, React, HTML, CSS.
+
+## Implement a New Language Backend for Co-dfns
+- Project: CoDfns
+- Size: long-350h
+- Difficulty Level: Hard
+- Project URL: https://github.com/Co-dfns/Co-dfns
+- Potential Mentors: Aaron Hsu ([@arcfide](https://github.com/arcfide)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/12
+
+#### Description:
+
+Co-dfns is an APL compiler with a novel architecture that is designed to support compiling APL to multiple different backend languages. 
+The goal of this project is to add a new backend to Co-dfns. The choice of backend target language is open to the implementor. The current backend is implemented in C. 
+
+Possible languages include any language of the mentee's choice, but a non-exhaustive list could be: JS, Java, Python, WASM, X86-64 Assembly, SML, OCaml, Zig, Rust, Go, Lua, CUDA, or any language of your choice
+
+#### Expected outcomes:
+New backend language support for Co-dfns. 
+
+#### Technologies involved: 
+APL, C, Co-dfns, and the language and tooling of the mentee's choice. 
 
 ## Dyalog Jupyter Projects
 
@@ -78,8 +171,8 @@ There are two tasks of medium difficulty that can be undertaken in this project:
 - Size: medium-175h
 - Difficulty Level: medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
-- Potential Mentors: [@xpqz](https://github.com/xpqz), [@yiyus](https://github.com/yiyus), [@martanit](https://github.com/martanit), [@MaxCan-Code](https://github.com/MaxCan-Code), [@cursork](https://github.com/cursork)
-- Discussions: TBA
+- Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/7
 
 The Dyalog Kernel currently does not implement any of the Jupyter [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) -- meta commands that don't get executed by the kernel itself, typically interfacing with the operating system, or with Jupyter extensions, "escaping" the Dyalog kernel in this case. 
 
@@ -99,8 +192,8 @@ Python, possibly JavaScript, possibly some APL
 - Size: medium-175h
 - Difficulty Level: medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
-- Potential Mentors: [@xpqz](https://github.com/xpqz), [@yiyus](https://github.com/yiyus), [@martanit](https://github.com/martanit), [@MaxCan-Code](https://github.com/MaxCan-Code), [@cursork](https://github.com/cursork)
-- Discussions: TBA
+- Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Discussions: https://github.com/Dyalog/GSOC/discussions/7
 
 Jupyter supports [widgets](https://ipywidgets.readthedocs.io/en/8.1.2/) -- simple in-cell interactive controls, such as sliders, buttons etc. The widget architecture is kernel-agnostic, and any kernel can implement access to such widgets. In this project, we'd like to implement the widget protocol for the Dyalog Jupyter kernel, so that we can show a slider that sets an APL value. This would greatly enhance exploratory programming in a Dyalog APL notebook: hook a slider up to a parameter in a model and see what the effects are without having to actually type and execute cells. 
 
@@ -112,27 +205,5 @@ Widgets protocol in kernel, plus APL implementation of the widget classes
 Python, interest in APL
 #### Technologies involved: 
 Python, APL
-
-## Scientific Graphics Library for EWC
-
-- Project: EWC(Everywhere Window Create)
-- Size: 175 hours
-- Difficulty Level: Medium
-- Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client 
-- Potential Mentors: [@cursork](https://github.com/cursork), [@mkromberg](https://github.com/mkromberg)
-- Discussions: TBA
- 
-Description:
- 
-EWC (Everywhere Window Create) is an emulation of Dyalog's highly successful object library for Windows Win32 GUI applications. While the original is limited to Windows Desktops, EWC allows the creation of web applications and cross-platform desktop or mobile applications using a combination of APL code on the server and JavaScript/React on the client side.
- 
-EWC has wrapper classes for ApexCharts and KendoCharts, but these packages focus on business-oriented charting, and do not provide features like surface or contour charts, or other technical charting features that scientific users are likely to want. The task is to research available JavaScript libraries, identify one that will fit comfortably within EWC, and implement a wrapper class that makes it easy for the APL user to wield it. The EWC development team will be available for consultation and doing server-side work to create and optimise the new class if necessary.
- 
-#### Expected outcomes:
-
-A new EWC object type that can be used in APL applications, a handful of samples demonstrating its use, and documentation that explains how to make use of the JavaScript library via EWC.
- 
-#### Technologies involved:
-HTML, CSS, JavaScript, React, some basic APL
 
 <p align="center">Made with ❤ at Dyalog</p>
