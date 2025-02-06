@@ -36,7 +36,7 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-# Finalised Ideas for GSoC 2025
+# Project list for GSoC 2025
 
 ## Make the TryAPL front end mobile friendly
 - Project: TryAPL Front End
