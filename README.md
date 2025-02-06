@@ -32,7 +32,7 @@ Join the vibrant APL community at APL Orchard to connect with enthusiasts and me
 ## Project Ideas from the community
 
 Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡
- 
+
 We have made a [discussion](https://github.com/Dyalog/GSOC/discussions/6) just for that, so we can comment and help you finalise it. Feel free to provide as much information as possible and then we'll look forward to connecting with you in this discussion
 
 Please try to include as much as possible from this template:
@@ -126,7 +126,7 @@ New EWC classes that can be used in APL applications, with documentation and exa
 APL, EWC, JavaScript, React, HTML, CSS.
 
 ## Implement a New Language Backend for Co-dfns
-- Project: CoDfns
+- Project: Co-dfns
 - Size: long-350h
 - Difficulty Level: Hard
 - Project URL: https://github.com/Co-dfns/Co-dfns
@@ -158,12 +158,12 @@ The [Dyalog Jupyter kernel](https://github.com/Dyalog/dyalog-jupyter-kernel) imp
 
 Here are some examples of the kernel in use:
 
-- https://xpqz.github.io/learnapl
-- https://xpqz.github.io/cultivations
-- https://github.com/fastai/apl-study
-- https://github.com/yiyus/data-science-in-APL
-- https://github.com/yiyus/ga
-- https://github.com/yiyus/nu
+- [https://xpqz.github.io/learnapl](https://xpqz.github.io/learnapl)
+- [https://xpqz.github.io/cultivations](https://xpqz.github.io/cultivations)
+- [https://github.com/fastai/apl-study](https://github.com/fastai/apl-study)
+- [https://github.com/yiyus/data-science-in-APL](https://github.com/yiyus/data-science-in-APL)
+- [https://github.com/yiyus/ga](https://github.com/yiyus/ga)
+- [https://github.com/yiyus/nu](https://github.com/yiyus/nu)
 
 There are two tasks of medium difficulty that can be undertaken in this project:
 
