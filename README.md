@@ -6,26 +6,18 @@
 
 ![GSOCxDyalog Banner](./assets/banner.png)
 
+
 ## About Dyalog
 
-Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog APL is widely used in domains like finance, analytics, and engineering.
+Dyalog delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog APL is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
 
 Learn more on the Dyalog [Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
-
-## For discussions and questions:
-
-- Each project idea has a post in the discussions tab where the idea can be discussed
-- There is an open track in the discussions where any interested mentee can add their own ideas and based on our mentor availability we can accept the ideas
 
 ## Discussions and Community  
 
 ### Community Discussion Channels  
+- **[GitHub Discussions](https://github.com/Dyalog/GSOC/discussions)**: Participate in structured discussions about GSoC projects, share your ideas, and engage with mentors and peers.  
 - **[APL Orchard](https://apl.chat)**: A chat room dedicated to learn and teach APL, and to ask and answer questions about both golfing and general coding in APL. 
-- **[GitHub Discussions](https://github.com/Dyalog/GSOC-Ideas/discussions)**: Participate in structured discussions about GSoC projects, share your ideas, and engage with mentors and peers.  
-
-### How to Get Involved  
-- **Project-specific Discussions**: Each finalized project idea will have a dedicated post in the GitHub Discussions tab. 
-- **Open Idea Submissions**: Got your own project idea? Share it in the open discussion track on GitHub. Based on mentor availability, we may guide and accept community-proposed ideas.
 
 ## Learn Dyalog APL
 
@@ -43,7 +35,7 @@ Join the vibrant APL community at APL Orchard to connect with enthusiasts and me
 - Size: medium-175h
 - Difficulty Level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
-- Potential mentors: [@rikedyp](https://github.com/rikedyp), [@sloorush](https://github.com/sloorush), [@cursork](https://github.com/cursork)
+- Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), [@sloorush](https://github.com/sloorush), [@cursork](https://github.com/cursork)
 - Discussions: TBA
 
 #### Description:
