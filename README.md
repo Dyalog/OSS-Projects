@@ -101,7 +101,7 @@ HTML, CSS, JavaScript, React, some basic APL
 - Size: medium-175h
 - Difficulty Level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client
-- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/13](https://github.com/Dyalog/GSOC/discussions/13)
 
 #### Description:
