@@ -4,7 +4,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="./assets/site.webmanifest" />
 
-![GSOCxDyalog Banner](./assets/banner.png)
+<!-- ![GSOCxDyalog Banner](./assets/banner.png) -->
 
 ## About Dyalog
 
@@ -15,7 +15,7 @@ Learn more on the Dyalog [Homepage](https://www.dyalog.com) or check out the [Do
 ## Discussions and Community  
 
 ### Community Discussion Channels  
-- **[GitHub Discussions](https://github.com/Dyalog/GSOC/discussions)**: Participate in structured discussions about GSoC projects, share your ideas, and engage with mentors and peers.  
+- **[GitHub Discussions](https://github.com/Dyalog/GSOC/discussions)**: Participate in structured discussions about the projects, share your ideas, and engage with mentors and peers.  
 - **[APL Orchard](https://apl.chat)**: A chat room dedicated to learn and teach APL, and to ask and answer questions about both golfing and general coding in APL. 
 
 ## Learn Dyalog APL
@@ -27,7 +27,7 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-# Project list for GSoC 2025
+# Project list
 
 ## Project Ideas from the community
 
