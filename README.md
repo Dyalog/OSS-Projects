@@ -4,7 +4,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="./assets/site.webmanifest" />
 
-![GSOCxDyalog Banner](./assets/banner.png)
+![Dyalog OSS projects Banner](./assets/banner.png)
 
 ## About Dyalog
 
@@ -12,10 +12,16 @@ Dyalog delivers an APL-based development environment that allows both subject ma
 
 Learn more on the Dyalog [Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
 
+## What exactly is open source?
+
+"Open source" refers to software whose design and source code are publicly accessible, allowing anyone to study, modify, and share it. Open source fosters collaboration, transparency, and wider community participation in building and improving technology.
+
+At Dyalog, we are committed to supporting the open source community. By making more of our tools available as open source, we hope to invite more people to contribute, innovate, and help shape the future of APL together.
+
 ## Discussions and Community  
 
 ### Community Discussion Channels  
-- **[GitHub Discussions](https://github.com/Dyalog/GSOC/discussions)**: Participate in structured discussions about GSoC projects, share your ideas, and engage with mentors and peers.  
+- **[GitHub Discussions](https://github.com/Dyalog/GSOC/discussions)**: Participate in structured discussions about the projects, share your ideas, and engage with mentors and peers.  
 - **[APL Orchard](https://apl.chat)**: A chat room dedicated to learn and teach APL, and to ask and answer questions about both golfing and general coding in APL. 
 
 ## Learn Dyalog APL
@@ -27,11 +33,11 @@ Whether you're new to APL or an experienced programmer looking to master Dyalog,
 
 Join the vibrant APL community at APL Orchard to connect with enthusiasts and mentors!
 
-# Project list for GSoC 2025
+# Project list
 
 ## Project Ideas from the community
 
-Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡
+Do you have an idea for a project that you or someone should work on, but is not on our list? Great! 💡
 
 We have made a [discussion](https://github.com/Dyalog/GSOC/discussions/6) just for that, so we can comment and help you finalise it. Feel free to provide as much information as possible and then we'll look forward to connecting with you in this discussion
 
