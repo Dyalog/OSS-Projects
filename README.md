@@ -45,7 +45,7 @@ Please try to include as much as possible from this template:
  
 ```
 - Name of the project:
-- Estimated workload for you: 90 hours/ 175 hours /350 hours
+- Estimated workload for you: 90 hours / 175 hours / 350 hours
 - Estimated difficulty for you: easy/medium/hard
 - Project URL
 - Potential mentors/maintainers that would be relevant to talk to : 
@@ -59,7 +59,7 @@ Please try to include as much as possible from this template:
 
 ## Make the TryAPL front end mobile friendly
 - Project: TryAPL Front End
-- Size: medium - 175h
+- Size: Medium - 175h
 - Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
 - Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), Aarush Bhat ([@sloorush](https://github.com/sloorush)), Neil Kirsopp ([@cursork](https://github.com/cursork))
@@ -82,7 +82,7 @@ HTML, CSS, JavaScript
 ## Scientific Graphics Library for EWC
 
 - Project: EWC(Everywhere Window Create)
-- Size: medium - 175h
+- Size: Medium - 175h
 - Difficulty level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client 
 - Potential mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
@@ -104,7 +104,7 @@ HTML, CSS, JavaScript, React, some basic APL
 ## File Picker and similar components for EWC
 
 - Project: File Picker and similar components for EWC
-- Size: medium - 175h
+- Size: Medium - 175h
 - Difficulty level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client
 - Potential mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
@@ -133,7 +133,7 @@ APL, EWC, JavaScript, React, HTML, CSS.
 
 ## Implement a New Language Backend for Co-dfns
 - Project: Co-dfns
-- Size: long - 350h
+- Size: Large - 350h
 - Difficulty level: Hard
 - Project URL: https://github.com/Co-dfns/Co-dfns
 - Potential mentors: Aaron Hsu ([@arcfide](https://github.com/arcfide)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code))
@@ -175,7 +175,7 @@ There are two tasks of medium difficulty that can be undertaken in this project:
 
 ### Dyalog Magics
 - Project: Dyalog Jupyter Kernel
-- Size: medium - 175h
+- Size: Medium - 175h
 - Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
 - Potential mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
@@ -196,7 +196,7 @@ Python, possibly JavaScript, possibly some APL
 
 ### Dyalog Jupyter Widgets
 - Project: Dyalog Jupyter Kernel
-- Size: medium - 175h
+- Size: Medium - 175h
 - Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
 - Potential mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
