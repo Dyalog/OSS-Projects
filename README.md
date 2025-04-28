@@ -1,4 +1,4 @@
-<link rel="icon" type="image/png" href="./assets/favicon-96x96.png" sizes="96x96" />
+<mlink rel="icon" type="image/png" href="./assets/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
 <link rel="shortcut icon" href="./assets/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -188,7 +188,7 @@ The [Jupyter AI extension](https://jupyter-ai.readthedocs.io/en/latest/index.htm
 [Jeremy Howard](https://github.com/jph00) has implemented [Dyalog magics](https://github.com/AnswerDotAI/aplnb) for the Python kernel -- the opposite direction: it makes it possible to execute Dyalog APL commands in a Python notebook.
 
 #### Expected outcomes:
-magics protocol implementation, + support for a set of magics
+Magics protocol implementation, + support for a set of magics
 #### Skills required:
 Python, interest in APL
 #### Technologies involved:
