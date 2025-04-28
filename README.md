@@ -59,8 +59,8 @@ Please try to include as much as possible from this template:
 
 ## Make the TryAPL front end mobile friendly
 - Project: TryAPL Front End
-- Size: medium-175h
-- Difficulty Level: Medium
+- Size: medium - 175h
+- Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/TryAPL
 - Potential mentors: Rich Park ([@rikedyp](https://github.com/rikedyp)), Aarush Bhat ([@sloorush](https://github.com/sloorush)), Neil Kirsopp ([@cursork](https://github.com/cursork))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/10](https://github.com/Dyalog/GSOC/discussions/10)
@@ -69,9 +69,9 @@ Please try to include as much as possible from this template:
 
 TryAPL is an online service that allows users to experiment with APL in a web browser without having to install any additional software. APL code entered into the system is sent over HTTP to a sandboxed environment that interprets the code and returns the formatted output to the user. Moreover, the entire state of the execution workspace, including defined functions and variables, is stored in a serialised, compressed format client side in the browser so that no server-side sessions or state need to be maintained. The system includes a JavaScript-based input method for APL symbols for both keyboard and mouse, as well as the ability to interpret and render Dyalog Jupyter notebooks.
 
-The front-end can be used on mobile devices, but was not designed with mobile-first principles and as such has some issues when viewed on some touch-screen devices. Improvement to the TryAPL front end will make APL more accessible to users on a wider range of devices.
+The front-end can be used on mobile devices, but was not designed with mobile-first principles and as such has some issues when viewed on some touchscreen devices. Improvement to the TryAPL front end will make APL more accessible to users on a wider range of devices.
 
-This project is to develop the front end of TryAPL to be mobile friendly; the interface will be accessible on touch screen devices. The input system will be refactored to an entirely managed system using JavaScript that prevents the device operating system's keyboard from popping up. There will need to be an on-screen keyboard that allows input of ASCII and APL characters. There should be some consideration for the use of interactive Jupyter notebook tutorials.
+This project is to develop the front end of TryAPL to be mobile friendly; the interface will be accessible on touchscreen devices. The input system will be refactored to an entirely managed system using JavaScript that prevents the device operating system's keyboard from popping up. There will need to be an on-screen keyboard that allows input of ASCII and APL characters. There should be some consideration for the use of interactive Jupyter notebook tutorials.
 
 #### Expected outcomes:
 The TryAPL project will have a new front end that can be deployed on https://tryapl.org.
@@ -82,10 +82,10 @@ HTML, CSS, JavaScript
 ## Scientific Graphics Library for EWC
 
 - Project: EWC(Everywhere Window Create)
-- Size: medium-175h
-- Difficulty Level: Medium
+- Size: medium - 175h
+- Difficulty level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client 
-- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
+- Potential mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/11](https://github.com/Dyalog/GSOC/discussions/11)
  
 #### Description:
@@ -103,11 +103,11 @@ HTML, CSS, JavaScript, React, some basic APL
 
 ## File Picker and similar components for EWC
 
-- Name: File Picker and similar components for EWC
-- Size: medium-175h
-- Difficulty Level: Medium
+- Project: File Picker and similar components for EWC
+- Size: medium - 175h
+- Difficulty level: Medium
 - Project URL: https://github.com/dyalog/ewc and https://github.com/dyalog/ewc-client
-- Potential Mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
+- Potential mentors: Neil Kirsopp ([@cursork](https://github.com/cursork)), Morten Kromberg ([@mkromberg](https://github.com/mkromberg))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/13](https://github.com/Dyalog/GSOC/discussions/13)
 
 #### Description:
@@ -133,16 +133,16 @@ APL, EWC, JavaScript, React, HTML, CSS.
 
 ## Implement a New Language Backend for Co-dfns
 - Project: Co-dfns
-- Size: long-350h
-- Difficulty Level: Hard
+- Size: long - 350h
+- Difficulty level: Hard
 - Project URL: https://github.com/Co-dfns/Co-dfns
-- Potential Mentors: Aaron Hsu ([@arcfide](https://github.com/arcfide)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code))
+- Potential mentors: Aaron Hsu ([@arcfide](https://github.com/arcfide)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/12](https://github.com/Dyalog/GSOC/discussions/12)
 
 #### Description:
 
 Co-dfns is an APL compiler with a novel architecture that is designed to support compiling APL to multiple different backend languages. 
-The goal of this project is to add a new backend to Co-dfns. The choice of backend target language is open to the implementor. The current backend is implemented in C. 
+The goal of this project is to add a new backend to Co-dfns. The choice of backend target language is open to the implementer. The current backend is implemented in C. 
 
 Possible languages include any language of the mentee's choice, but a non-exhaustive list could be: JS, Java, Python, WASM, X86-64 Assembly, SML, OCaml, Zig, Rust, Go, Lua, CUDA, or any language of your choice
 
@@ -175,13 +175,13 @@ There are two tasks of medium difficulty that can be undertaken in this project:
 
 ### Dyalog Magics
 - Project: Dyalog Jupyter Kernel
-- Size: medium-175h
-- Difficulty Level: medium
+- Size: medium - 175h
+- Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
-- Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Potential mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/7](https://github.com/Dyalog/GSOC/discussions/7)
 
-The Dyalog Kernel currently does not implement any of the Jupyter [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) -- meta commands that don't get executed by the kernel itself, typically interfacing with the operating system, or with Jupyter extensions, "escaping" the Dyalog kernel in this case. 
+The Dyalog Kernel currently does not implement any of the Jupyter [magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html) -- meta-commands that don't get executed by the kernel itself, typically interfacing with the operating system, or with Jupyter extensions, "escaping" the Dyalog kernel in this case. 
 
 The [Jupyter AI extension](https://jupyter-ai.readthedocs.io/en/latest/index.html) is an example of what can be done with magic commands. We would like to implement the magics protocol in the Dyalog Kernel, and implement some of the more commonly used magic commands on top of this. Hooking Dyalog up to the Jupyter AI magics would be a great stretch goal for this. There is a floating boundary on this -- the bulk of this will still be a Python job, but depending on how deep you go, you may want to pick up some Dyalog APL to let the backend drive some of the implementation. This is a good project for the Pythonista that has a burgeoning interest in array programming and APL. 
 
@@ -196,10 +196,10 @@ Python, possibly JavaScript, possibly some APL
 
 ### Dyalog Jupyter Widgets
 - Project: Dyalog Jupyter Kernel
-- Size: medium-175h
-- Difficulty Level: medium
+- Size: medium - 175h
+- Difficulty level: Medium
 - Project URL: https://github.com/Dyalog/dyalog-jupyter-kernel
-- Potential Mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
+- Potential mentors: Stefan Kruger ([@xpqz](https://github.com/xpqz)), Jesús Galán López ([@yiyus](https://github.com/yiyus)), Martina Crippa ([@martanit](https://github.com/martanit)), Max Sun ([@MaxCan-Code](https://github.com/MaxCan-Code)), Neil Kirsopp ([@cursork](https://github.com/cursork))
 - Discussions: [https://github.com/Dyalog/GSOC/discussions/7](https://github.com/Dyalog/GSOC/discussions/7)
 
 Jupyter supports [widgets](https://ipywidgets.readthedocs.io/en/8.1.2/) -- simple in-cell interactive controls, such as sliders, buttons etc. The widget architecture is kernel-agnostic, and any kernel can implement access to such widgets. In this project, we'd like to implement the widget protocol for the Dyalog Jupyter kernel, so that we can show a slider that sets an APL value. This would greatly enhance exploratory programming in a Dyalog APL notebook: hook a slider up to a parameter in a model and see what the effects are without having to actually type and execute cells. 
@@ -209,7 +209,7 @@ Implementing the widgets protocol needs to be done firstly in Python, to impleme
 #### Expected outcomes:
 Widgets protocol in kernel, plus APL implementation of the widget classes
 #### Skills required: 
-Python, interest in APL
+Python, and an interest in APL
 #### Technologies involved: 
 Python, APL
 
