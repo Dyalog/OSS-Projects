@@ -4,13 +4,19 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="manifest" href="./assets/site.webmanifest" />
 
-<!-- ![GSOCxDyalog Banner](./assets/banner.png) -->
+![Dyalog OSS projects Banner](./assets/banner.png)
 
 ## About Dyalog
 
 Dyalog delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog APL is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
 
 Learn more on the Dyalog [Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
+
+## What exactly is open source?
+
+"Open source" refers to software whose design and source code are publicly accessible, allowing anyone to study, modify, and share it. Open source fosters collaboration, transparency, and wider community participation in building and improving technology.
+
+At Dyalog, we are committed to supporting the open source community. By making more of our tools available as open source, we hope to invite more people to contribute, innovate, and help shape the future of APL together.
 
 ## Discussions and Community  
 
@@ -31,7 +37,7 @@ Join the vibrant APL community at APL Orchard to connect with enthusiasts and me
 
 ## Project Ideas from the community
 
-Do you have an idea for a project that could work within Summer of Code, but is not on our list? Great! 💡
+Do you have an idea for a project that you or someone should work on, but is not on our list? Great! 💡
 
 We have made a [discussion](https://github.com/Dyalog/GSOC/discussions/6) just for that, so we can comment and help you finalise it. Feel free to provide as much information as possible and then we'll look forward to connecting with you in this discussion
 
