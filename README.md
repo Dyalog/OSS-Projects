@@ -188,7 +188,7 @@ The [Jupyter AI extension](https://jupyter-ai.readthedocs.io/en/latest/index.htm
 [Jeremy Howard](https://github.com/jph00) has implemented [Dyalog magics](https://github.com/AnswerDotAI/aplnb) for the Python kernel -- the opposite direction: it makes it possible to execute Dyalog APL commands in a Python notebook.
 
 #### Expected outcomes:
-magics protocol implementation, + support for a set of magics
+Magics protocol implementation, + support for a set of magics
 #### Skills required:
 Python, interest in APL
 #### Technologies involved:
