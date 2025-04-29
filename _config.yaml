@@ -3,3 +3,4 @@ title: "Open Source Software Projects at Dyalog!"
 description: "List of Open Source Software Projects at Dyalog"
 url: "https://dyalog.github.io/OSS-Projects/"
 baseurl: ""
+theme: minima
