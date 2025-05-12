@@ -207,4 +207,4 @@ Python, and an interest in APL
 #### Technologies involved: 
 Python, APL
 
-<p align="center">Made with ❤ at Dyalog</p>
+<p align="center">Made with ❤ at Dyalog Ltd</p>
