@@ -2,15 +2,15 @@
 
 ## About Dyalog
 
-Dyalog delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog APL is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
+Dyalog Ltd delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
 
-Learn more on the Dyalog [Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
+Learn more on the [Dyalog Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
 
 ## What exactly is open source?
 
 "Open source" refers to software whose design and source code are publicly accessible, allowing anyone to study, modify, and share it. Open source fosters collaboration, transparency, and wider community participation in building and improving technology.
 
-At Dyalog, we are committed to supporting the open source community. By making more of our tools available as open source, we hope to invite more people to contribute, innovate, and help shape the future of APL together.
+At Dyalog Ltd, we are committed to supporting the open source community. By making more of our tools available as open source, we hope to invite more people to contribute, innovate, and help shape the future of APL together.
 
 ## Discussions and Community  
 
@@ -20,7 +20,7 @@ At Dyalog, we are committed to supporting the open source community. By making m
 
 ## Learn Dyalog APL
 
-Whether you're new to APL or an experienced programmer looking to master Dyalog, these resources will help you on your journey:
+Whether you're new to APL or an experienced programmer looking to master Dyalog APL, these resources will help you on your journey:
 
 - [Learning APL by Stefan Kruger](https://xpqz.github.io/learnapl/intro.html): A beginner-friendly resource that introduces APL concepts interactively and intuitively.
 - [Mastering Dyalog APL](https://www.dyalog.com/mastering-dyalog-apl.htm): A comprehensive guide to building expertise in Dyalog APL, from basics to advanced topics.
