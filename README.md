@@ -4,7 +4,7 @@
 
 Dyalog Ltd delivers an APL-based development environment that allows both subject matter experts and IT specialists to efficiently convert ideas into software solutions. Dyalog APL is a high-performance implementation of the APL programming language, renowned for its expressive syntax and mathematical elegance. Designed for problem-solving, rapid prototyping, and concise code expression, Dyalog is widely used in domains like finance, analytics, and engineering. We also focus on tooling for this language.
 
-Learn more on the [Dyalog Homepage](https://www.dyalog.com) or check out the [Documentation](https://help.dyalog.com).
+Learn more by visiting [Dyalog Ltd's website](https://www.dyalog.com) or have a look at the [Dyalog Documentation](https://help.dyalog.com).
 
 ## What exactly is open source?
 
